@@ -1,0 +1,1 @@
+<?php get_header(); ?><main class="content-area"><div class="container"><article class="post"><?php while(have_posts()): the_post(); ?><h1><?php the_title(); ?></h1><div class="post-meta"><?php echo esc_html(get_the_date()); ?></div><?php the_content(); endwhile; ?></article></div></main><?php get_footer(); ?>

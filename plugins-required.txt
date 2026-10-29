@@ -1,0 +1,45 @@
+JannatIT (jannatit.net) — Plugins required for the theme to work
+Verified from the live WordPress admin plugin list, 2026-10-28, plus
+JannatIT Contact Links installed 2026-10-29.
+Install and activate these in WordPress admin (Plugins > Add New / Upload).
+
+REQUIRED — the site does not render correctly without these:
+1. RDPGround Site 1.1.0 by Jannat IT — CRITICAL. The live sales pages,
+   header, footer, plans, contact cards and FAQ are custom PHP templates
+   from this plugin (rdpground-home/), NOT from the theme. The active
+   theme alone is NOT a complete backup.
+2. JannatIT Order Links 1.0.0 (companion plugin, in this repo) — makes
+   every "Order now" button link changeable from admin. Currently set:
+   only the global WHMCS base to https://rdpground.net/clientarea/
+3. JannatIT Contact Links 1.0.0 (companion plugin, in this repo) — makes
+   Telegram, email, Signal, WhatsApp, Facebook, Instagram, LinkedIn and
+   Teams links changeable from admin. Currently all fields empty, so the
+   restored original links are shown.
+4. SiteSEO 1.4.2 + SiteSEO Pro 1.4.2 — titles, descriptions, sitemap,
+   redirects (e.g. /contact/ -> /info/) and Knowledge Graph.
+5. SpeedyCache 1.4.3 + SpeedyCache Pro — caching; clear the cache after
+   any plugin/theme change or the old pages may keep showing.
+
+ALSO ACTIVE ON THE LIVE SITE (keep for full parity):
+6. Backuply + Backuply Pro — backups
+7. Beaver Builder Lite — page builder (page editors show a placeholder)
+8. Pagelayer — page builder
+9. Kadence Blocks — blocks
+10. WPBakery addons (WPBakery itself was NOT active) — builder addons
+11. FormLayer + FormLayer Pro — forms
+12. GoSMTP + GoSMTP Pro — mail sending
+13. CookieAdmin + CookieAdmin Pro — cookie consent
+14. Loginizer + Loginizer Pro — login security
+15. SoftWP — (active on the live site)
+
+NOT REQUIRED (inactive on the live site, do not need to install):
+- Akismet, Hello Dolly
+
+NOTES:
+- No WooCommerce and no Elementor on the live site.
+- Order now / Client area links intentionally go to the rdpground.net
+  WHMCS portal (decision 2026-10-28: keep RDPGround WHMCS for now).
+- If a future RDPGround Site plugin update overwrites its template
+  files, the header-logo, front-end rebrand and contact-restore edits
+  in rdpground-home/templates/ will be lost — restore them from this
+  repo backup before re-applying any update.

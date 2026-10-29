@@ -1,0 +1,1 @@
+<?php get_header(); ?><main class="content-area"><div class="container"><article class="post"><?php while(have_posts()): the_post(); ?><h1><?php the_title(); ?></h1><?php the_content(); endwhile; ?></article></div></main><?php get_footer(); ?>
