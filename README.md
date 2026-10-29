@@ -29,6 +29,13 @@ were deliberately NOT pushed to this public repository.
   Facebook, Instagram, LinkedIn and Teams links changeable from
   WordPress admin. Live setting at backup time: all fields empty, so
   the restored original links are shown.
+- `plugins/jannatit-site-fixes/` — JannatIT Site Fixes 1.0.1, added
+  2026-10-29 after the first backup push: removes the literal "home"
+  from the home page tab title (now "JannatIT – Fast Windows RDP &
+  VPS Hosting from $8/mo") and points the footer Privacy Policy link
+  to the live /privacy-policy/ page instead of the 404
+  /privacy-policy-3/ page. No theme or RDPGround file is edited;
+  deactivating restores both originals.
 - `plugins-required.txt` — the full list of plugins that must be
   installed for the theme to work, with versions and notes.
 

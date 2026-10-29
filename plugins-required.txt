@@ -15,6 +15,9 @@ REQUIRED — the site does not render correctly without these:
    Telegram, email, Signal, WhatsApp, Facebook, Instagram, LinkedIn and
    Teams links changeable from admin. Currently all fields empty, so the
    restored original links are shown.
+4. JannatIT Site Fixes 1.0.1 (companion plugin, in this repo, added
+   2026-10-29) — home tab title without "home", and the footer Privacy
+   Policy link to the live /privacy-policy/ page.
 4. SiteSEO 1.4.2 + SiteSEO Pro 1.4.2 — titles, descriptions, sitemap,
    redirects (e.g. /contact/ -> /info/) and Knowledge Graph.
 5. SpeedyCache 1.4.3 + SpeedyCache Pro — caching; clear the cache after
